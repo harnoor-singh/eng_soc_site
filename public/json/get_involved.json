@@ -271,16 +271,6 @@
       "instagram": "https://www.instagram.com/10am_mun/",  
       "date": "2025"
     },
-    "Google Developers Club": {
-      "title": "",
-      "logo": "/res/team_logos/google.png",
-      "text": "",
-      "link": "",
-      "discord": "",
-      "facebook": "https://www.facebook.com/dscmun/",
-      "instagram": "https://www.instagram.com/gdscmun/",
-      "linkedin": "https://www.linkedin.com/company/dscmun/"
-    },
     "National Society of Black Engineers": {
       "title": "Empowering, Innovating, Advancing, Unity",
       "logo": "/res/team_logos/nsbe.png",
@@ -290,13 +280,15 @@
       "contact": "nsbemun@gmail.com",
       "date": "2020"
     },
-    "IEEE Student Branch": {
-      "title": "",
-      "logo": "/res/team_logos/ieee.png",
-      "text": "",
-      "discord": "",
-      "facebook": "https://www.facebook.com/MUNIEEEStundentBranch/",
-      "contact": "kmali@ieee.org"
+    "Memorial Medtech": {
+      "title": "BMES MUN Chapter",
+      "logo": "/res/team_logos/bmes.jpg",
+      "text": "Participate one the True North Canadian Biomedical Competition with design in electrical and mechanical healthtech devices, getting a taste of what the biomedical field has to offer.",
+      "link": "",
+      "contact": "",
+      "linkedin": "https://www.linkedin.com/company/memorial-medtech/about/",
+      "instagram": "https://www.instagram.com/memorialmedtech?igsh=MTdyczJjdWJza2Y5OA%3D%3D&utm_source=qr",
+      "date": "2025"
     },
     "Society of Petroleum Engineers Student Chapter": {
       "title": "",
@@ -306,6 +298,24 @@
       "linkedin": "https://linkedin.com/company/sspemun",
       "contact": "sspe@mun.ca",
       "date": "2002"
+    },
+    "IEEE Student Branch": {
+      "title": "",
+      "logo": "/res/team_logos/ieee.png",
+      "text": "",
+      "discord": "",
+      "facebook": "https://www.facebook.com/MUNIEEEStundentBranch/",
+      "contact": "kmali@ieee.org"
+    },
+    "Google Developers Club": {
+      "title": "",
+      "logo": "/res/team_logos/google.png",
+      "text": "",
+      "link": "",
+      "discord": "",
+      "facebook": "https://www.facebook.com/dscmun/",
+      "instagram": "https://www.instagram.com/gdscmun/",
+      "linkedin": "https://www.linkedin.com/company/dscmun/"
     },
     "Hackfrost NL": {
       "title": "",

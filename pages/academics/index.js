@@ -136,8 +136,17 @@ function Navigation() {
 						<p className="mb-4 text-black">Student Affairs and Services administers the Scholarships and Awards Program for the University, distributes out-of-Province Financial Aid, and emergency financial aid.</p>
 					</div>
 				</div>
-				<div className={`transition-opacity ${currentButton === 3 ? "block" : "hidden"} min-h-fit lg:pt-0 pt-20 mb-10 pb-10 delay-200 `}>
-					<NothingHereYet />
+				<div className={`transition-opacity ${currentButton === 3 ? "block" : "hidden"} delay-200 w-5/6 lg:w-2/3 `}>
+					<h3 className="mb-4 text-2xl font-bold text-black">International Student Discord Server</h3>
+					<p className="mb-4 text-black">If you are an international student, please join our Discord with the link below! We will post information about events and announcements that might be relevant to you, like being able to lend an Arduino kit, how to get your Work Permit, and much else.</p>
+
+					<div className="w-full justify-center flex mt-6 mb-6">
+					<button className="justify-center rounded-full w-fit bg-blue-500 px-4 py-2 font-bold text-white transition hover:bg-blue-700" onClick={() => window.open("https://discord.gg/nMThDMSpDc", "_blank")}>
+								Join now!
+					</button>
+					</div>
+
+					<p className="mb-4 text-black">If you have any questions, do not hesitate to reach out to us through social media, or to the Director of International Representation of your society.</p>
 				</div>
 			</div>
 		</div>
