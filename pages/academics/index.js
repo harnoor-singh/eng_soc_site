@@ -49,17 +49,17 @@ function Navigation() {
 				<button className={`hidden font-norwester font-extrabold transition-transform lg:block xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					Equity, Diversity, and Inclusion
 				</button>
-				<button className={`pt-2 font-norwester font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 1 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(1)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						work
 					</span>
 				</button>
-				<button className={`pt-2 font-norwester font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 2 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(2)}>
 					<span className="material-icons  pointer-events-none" style={{ fontSize: "40px" }}>
 						contact_support
 					</span>
 				</button>
-				<button className={`pt-2 font-norwester font-extrabold transition-transform lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
+				<button className={`pt-2 font-norwester font-extrabold transition-transform pt-5 lg:hidden xl:w-1/3 xl:text-3xl ${currentButton === 3 ? "text-black underline xl:scale-125" : "text-white"}`} onClick={() => handleButtonClick(3)}>
 					<span className="material-icons pointer-events-none" style={{ fontSize: "40px" }}>
 						diversity_2
 					</span>
@@ -95,8 +95,15 @@ function Navigation() {
 							<li>Descriptions of the main projects and responsibilities you had</li>
 						</ul>
 						<p className="text-black">As students, we do not yet have access to the CBA system, but once you apply for your license, you will be able to add the experience you have gathered in your Work Terms. For more information, please look at the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/applicant/competency-based-assessment/" target="_blank">CBA site</a> and the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/faq/registration-faq/" target="_blank">FAQ</a> by PEGNL.</p>
+
+						<div className="w-full justify-center flex mt-6 mb-6"> 
+							<object className="w-full md:w-4/5" height="500" type="application/pdf" data="../res/academics/MUN%20Student%20Society%20Webinar%202025-11-05.pdf?#zoom=80&scrollbar=0&toolbar=0&navpanes=0">
+								<p className="text-black">A problem with the CBA Presentation PDF has occurred</p>
+							</object>
+						</div>
 					</div>
 				</div>
+
 				<div className={`transition-opacity ${currentButton === 2 ? "block" : "hidden"} delay-200 w-5/6 lg:w-2/3 `}>
 					<div className="p-6">
 						<h3 className="mb-4 text-2xl font-bold text-black">Cahill Engineering One Student Success Centre</h3>
@@ -136,6 +143,7 @@ function Navigation() {
 						<p className="mb-4 text-black">Student Affairs and Services administers the Scholarships and Awards Program for the University, distributes out-of-Province Financial Aid, and emergency financial aid.</p>
 					</div>
 				</div>
+
 				<div className={`transition-opacity ${currentButton === 3 ? "block" : "hidden"} delay-200 w-5/6 lg:w-2/3 `}>
 					<h3 className="mb-4 text-2xl font-bold text-black">International Student Discord Server</h3>
 					<p className="mb-4 text-black">If you are an international student, please join our Discord with the link below! We will post information about events and announcements that might be relevant to you, like being able to lend an Arduino kit, how to get your Work Permit, and much else.</p>
