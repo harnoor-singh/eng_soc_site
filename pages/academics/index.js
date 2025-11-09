@@ -96,10 +96,12 @@ function Navigation() {
 						</ul>
 						<p className="text-black">As students, we do not yet have access to the CBA system, but once you apply for your license, you will be able to add the experience you have gathered in your Work Terms. For more information, please look at the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/applicant/competency-based-assessment/" target="_blank">CBA site</a> and the <a className="text-blue-500 underline hover:no-underline hover:text-blue-800" href="https://pegnl.ca/faq/registration-faq/" target="_blank">FAQ</a> by PEGNL.</p>
 
-						<div className="w-full justify-center flex mt-6 mb-6"> 
-							<object className="w-full md:w-4/5" height="500" type="application/pdf" data="../res/academics/MUN%20Student%20Society%20Webinar%202025-11-05.pdf?#zoom=80&scrollbar=0&toolbar=0&navpanes=0">
-								<p className="text-black">A problem with the CBA Presentation PDF has occurred</p>
-							</object>
+						<div className="w-full flex justify-center">
+							<div className="w-4/5 mt-6 mb-6 md:w-1/2 aspect-[4/3]"> 
+								<object  className="w-full h-full rounded-lg shadow-md"	 type="application/pdf" data="../res/academics/MUN%20Student%20Society%20Webinar%202025-11-05.pdf?#view=FitH&scrollbar=0&toolbar=0&navpanes=0">
+									<p className="text-black">A problem with the CBA Presentation PDF has occurred</p>
+								</object>
+							</div>
 						</div>
 					</div>
 				</div>
