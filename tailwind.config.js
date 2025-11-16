@@ -18,7 +18,10 @@ module.exports = {
       colors: {
         'mun-burgundy': '#832633',
         'mun-grey': '#63666A',
-        'mun-gold': "#EAAB00"
+        'mun-gold': "#EAAB00",
+        'charity-ball-gold': "#d9b04c",
+        'charity-ball-dark-blue': "#00146e",
+        'charity-ball-light-blue': "#6796ff"
       },
       fontFamily:{
 				ops: ['BlackOpsOne-Regular', 'opentype'],
@@ -26,6 +29,8 @@ module.exports = {
         gold_bold: ['Goldman-Bold', 'opentype'],
         maven: ['MavenPro-Regular', 'opentype'],
         maven_medium: ['MavenPro-Medium', 'opentype'],
+        maven_bold: ['MavenPro-Bold', 'opentype'],
+        kapakana: ['Kapakana-Regular', 'opentype'],
         norwester: ['Norwester', 'opentype']
       }
     },

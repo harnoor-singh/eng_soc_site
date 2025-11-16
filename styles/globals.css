@@ -33,6 +33,11 @@ body {
 }
 
 @font-face {
+  font-family: "Kapakana-Regular";
+  src: url("Kapakana-Regular.ttf");
+}
+
+@font-face {
   font-family: "BlackOpsOne-Regular";
   src: url("BlackOpsOne-Regular.ttf");
 }
