@@ -26,12 +26,12 @@ export default function Home() {
                     <div className="relative z-10 grid md:grid-cols-2 grid-cols-1 gap-10 md:w-2/3 w-4/5 mt-10 mb-10 place-items-center">
                       <div className="xl:w-1/2 flex items-center flex-col order-1 md:order-none border-solid">
                         <Link href="https://iriskirbyhouse.ca/">
-                          <Image src="../res/charityball/iris_kirby_house.png"  alt="ALS NL Logo" width={500} height={500}/>
+                          <Image src="../res/charityball/2025/iris_kirby_house.png"  alt="ALS NL Logo" width={500} height={500}/>
                         </Link>
                       </div>
                       <div className="xl:w-2/5 w-3/4 justify-center order-3 md:order-none">
                         <Link href="https://iriskirbyhouse.ca/">
-                          <Image src="../res/charityball/ALS_NL logo without bg.png" href="https://walktoendals.ca/" alt="ALS NL Logo" width={500} height={500}/>
+                          <Image src="../res/charityball/2025/ALS_NL logo without bg.png" href="https://walktoendals.ca/" alt="ALS NL Logo" width={500} height={500}/>
                         </Link>
                       </div>
 
