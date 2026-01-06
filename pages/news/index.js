@@ -1,5 +1,6 @@
 import { NothingHereYet } from "../../components/NothingHereYet";
 import { NewsCard } from "../../components/NewsCard";
+import RoleDescriptions from "@/components/RoleDescriptions";
 import Parallax from "/components/Parallax";
 import Head from 'next/head'
 
@@ -9,9 +10,8 @@ export default function News() {
 			<Head>
 				<title> MUN Eng Society | News</title>
 			</Head>
-			<div className="mt-20 justify-items-center w-full h-full">
-				<NothingHereYet></NothingHereYet>
-			</div>
+			<RoleDescriptions></RoleDescriptions>
+
 		</main>
 	);
 }
