@@ -89,36 +89,36 @@ export const Navbar = () => {
 					<div className="z-50 flex w-full flex-col items-start lg:ml-auto lg:inline-flex lg:w-auto lg:flex-row lg:items-center lg:justify-end">
 						<motion.div className="py-2" variants={itemVariants}>
 							<Link href="/aboutus">
-								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-wider text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-wider text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-lg ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
 									About
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" variants={itemVariants}>
 							<Link href="/academics">
-								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-lg ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
 									Academics
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" variants={itemVariants}>
+							<Link href="/charityball">
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-lg ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
+									Charity Ball
+								</div>
+							</Link>
+						</motion.div>
+						<motion.div className="py-2" variants={itemVariants}>
 							<Link href="/events">
-								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-lg ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
 									Events
 								</div>
 							</Link>
 						</motion.div>
 						<motion.div className="py-2" variants={itemVariants}>
 							<Link href="/getinvolved">
-								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
+								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-lg ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
 									Get Involved
-								</div>
-							</Link>
-						</motion.div>
-						<motion.div className="py-2" variants={itemVariants}>
-							<Link href="/news">
-								<div className={`w-full items-center justify-center rounded px-3 py-2 font-norwester tracking-widest text-lg font-bold text-white transition-transform hover:scale-110 hover:bg-mun-burgundy hover:text-white active:scale-100 lg:inline-flex lg:w-auto xl:text-2xl ${router.pathname == "/" ? "text-mun-burgundy" : "text-brand-darkblue"}`} onClick={handleClickClose}>
-									Join Society
 								</div>
 							</Link>
 						</motion.div>
