@@ -39,6 +39,11 @@ export default function Home() {
                       <p className="md:col-span-1 order-4 md:order-none">The ALS Society of Newfoundland and Labrador is a registered charity committed to providing support to ALS clients, their families, and their caregivers, while helping to find the cause of and a cure for ALS. They have worked tirelessly to increase public awareness of the personal and social impacts of this disease, and to raise funding that goes toward patient services and research.</p>
                       
                     </div>
+                  </div>
+                  <div className="w-full justify-center flex mt-6 mb-6">
+                    <button className="justify-center rounded-full w-fit bg-charity-ball-dark-blue px-4 py-2 font-maven text-2xl text-slate-200 transition hover:bg-blue-700" onClick={() => window.open("https://www.eventbrite.ca/e/mun-engineering-society-a-18th-annual-charity-ball-tickets-1774352168099?aff=oddtdtcreator", "_blank")}>
+                      Buy your Tickets Here!
+                    </button>
                   </div>    
                   <div className="relative z-10 flex flex-row w-1/2 justify-center mt-10 mb-10 [text-shadow:_0_2px_2px_rgb(40_60_120_/_0.7)]  lg:text-4xl text-3xl font-maven_bold text-charity-ball-gold">
                     <h3>February 6th 2026 at the Bella Vista</h3>
