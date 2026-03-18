@@ -67,6 +67,16 @@ body {
   src: url("Norwester.ttf");
 }
 
+@font-face {
+  font-family: "PTSerif-Bold";
+  src: url("PTSerif-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PTSerif";
+  src: url("PTSerif-Regular.ttf");
+}
+
 .fade-in {
   opacity: 0;
   animation: fadeInAnimation 3s forwards;

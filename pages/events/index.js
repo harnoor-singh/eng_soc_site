@@ -28,9 +28,12 @@ export default function Events() {
 			</Head>
 			<section className="flex flex-col pt-5 pb-5 pl-2 pr-2 lg:pb-10 lg:pl-40 lg:pr-40 lg:pt-10 gap-5">
 
-				{Object.entries(data).map(([event, event_data]) => {
+				{Object.entries(data).length === 0 ? (
+    				<EventCard name="No events now." description="Check back soon!" organizer="" age="" date=""/>
+					) : (
+				Object.entries(data).map(([event, event_data]) => {
 					return <EventCard name={event_data.name} organizer={organizer[event_data.organizer]} alt_name={event_data.alt_name} age={event_data.age} date={event_data.date} location={event_data.location} cost={event_data.cost} available={event_data.available} description={event_data.description} image={event_data.image} />;
-				})}
+				}))}
 			</section>
 		</main>
 	);

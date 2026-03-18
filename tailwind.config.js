@@ -31,7 +31,9 @@ module.exports = {
         maven_medium: ['MavenPro-Medium', 'opentype'],
         maven_bold: ['MavenPro-Bold', 'opentype'],
         kapakana: ['Kapakana-Regular', 'opentype'],
-        norwester: ['Norwester', 'opentype']
+        norwester: ['Norwester', 'opentype'],
+        ptserif: ['PTSerif', 'opentype'],
+        ptserif_bold: ['PTSerif-Bold', 'opentype']
       }
     },
   },
