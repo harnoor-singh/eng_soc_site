@@ -10,10 +10,17 @@
               "group_number": "1",
               "name": "μBot",
               "members": ["Jacob Hickey", "Duc Huy Ngo", "Nicholas Philpott", "Arya Salwan", "Harnoor Singh"],
-              "description": "Write here",
-              "group_photo": "",
-              "project_photo": "",
-              "member_links": [],
+              "description": "μBot is a compact, low-cost swarm robot designed specifically for academic research applications. The goal of the platform is to enable scalable, reliable, and accessible swarm robotics experimentation.",
+              "group_photo": "../res/academics/capstone/2026/ece/group/1.jpg",
+              "project_photo": "../res/academics/capstone/2026/ece/project/1.jpg",
+              "member_links": [
+                {
+                  "name": "Harnoor Singh",
+                  "website": "https://harnoor.dev",
+                  "linkedin": "https://www.linkedin.com/in/harnoorsingh05/",
+                  "github": "https://github.com/harnoor-singh"
+                }
+            ],
               "links": []
             },
             {
