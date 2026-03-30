@@ -52,7 +52,7 @@ export function CapstoneProjects({ data }) {
 
 			<p className="text-sm text-stone-500 mb-4 font-maven">{projects.length} project{projects.length !== 1 ? "s" : ""}</p>
 
-			<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 pb-10">
+			<div className="flex flex-col gap-4 pb-10 items-center">
 				{projects.map((project, i) => (
 					<CapstoneProjectCard key={i} project={project} />
 				))}
@@ -84,7 +84,7 @@ function CapstoneProjectCard({ project }) {
 	return (
 		<>
 			{/* Card — no overflow-hidden so the member link popup isn't clipped */}
-			<div className="bg-white rounded-xl shadow-md border border-stone-200 flex flex-col">
+			<div className="bg-white rounded-xl shadow-md border border-stone-200 flex flex-col w-full max-w-3xl">
 				{displayPhoto && (
 					<div
 						className="relative w-full h-48 overflow-hidden rounded-t-xl cursor-zoom-in group"
